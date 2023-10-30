@@ -1,0 +1,41 @@
+.row{
+  display: flex;
+  flex-direction: row;
+  height:100vh;
+}
+
+.col{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  height:100vh;
+}
+
+.invpar{
+  display: flex;
+  flex:4;
+  flex-direction: column;
+  height:100vh;
+  background-color: brown;
+}
+
+.inv{
+  display: flex;
+  flex:4;
+  flex-direction: column;
+  height:100vh;
+  background-color: rgb(42, 165, 138);
+  overflow-y: scroll;
+}
+
+.addItem{
+  flex:1;
+  background-color: cadetblue;
+}
+
+.commandes{
+  display:flex;
+  flex-direction: column;
+  flex:4;
+  background-color: chocolate;
+}

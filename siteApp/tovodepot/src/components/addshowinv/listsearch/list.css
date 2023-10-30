@@ -1,0 +1,27 @@
+.item{
+    display: flex;
+    flex-direction: row;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
+    color:white;
+}
+
+.table{
+    flex:1;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0;
+    color: blanchedalmond;
+}
+
+.btnadditem{
+    flex:1;
+    padding: 0;
+    border:1px solid black;
+}
